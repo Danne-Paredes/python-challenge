@@ -60,38 +60,3 @@ with open(os.path.join("Analysis", "PyPoll_Analysis.txt"), "w") as file1:
     file1.write(f"Winner: {winner}\n")
     file1.write("-------------------------\n")
     file1.close
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# import pandas as pd
-
-# data_file = "Resources/election_data.csv"
-
-# data_file_df = pd.read_csv(data_file)
-
-
-# unique = data_file_df["Candidate"].unique()
-# print(unique)
-
-# count = data_file_df[["Candidate","Khan"]].value_counts()
-# print(count)
